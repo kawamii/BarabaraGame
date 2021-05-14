@@ -15,6 +15,10 @@
 		002A06B5264D3B81006C8F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002A06B3264D3B81006C8F6C /* LaunchScreen.storyboard */; };
 		002A06C0264D3B82006C8F6C /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A06BF264D3B82006C8F6C /* BarabaraGameTests.swift */; };
 		002A06CB264D3B82006C8F6C /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A06CA264D3B82006C8F6C /* BarabaraGameUITests.swift */; };
+		002A06DD264D3DE9006C8F6C /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 002A06DB264D3DE9006C8F6C /* tail.png */; };
+		002A06DE264D3DE9006C8F6C /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 002A06DC264D3DE9006C8F6C /* bar.png */; };
+		002A06E3264D4019006C8F6C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A06E2264D4019006C8F6C /* GameViewController.swift */; };
+		002A06E8264D4049006C8F6C /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A06E7264D4049006C8F6C /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		002A06C6264D3B82006C8F6C /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		002A06CA264D3B82006C8F6C /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		002A06CC264D3B82006C8F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002A06DB264D3DE9006C8F6C /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		002A06DC264D3DE9006C8F6C /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		002A06E2264D4019006C8F6C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		002A06E7264D4049006C8F6C /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		002A069C264D3B7D006C8F6C = {
 			isa = PBXGroup;
 			children = (
+				002A06E7264D4049006C8F6C /* RankingViewController.swift */,
+				002A06E2264D4019006C8F6C /* GameViewController.swift */,
 				002A06A7264D3B7D006C8F6C /* BarabaraGame */,
 				002A06BE264D3B82006C8F6C /* BarabaraGameTests */,
 				002A06C9264D3B82006C8F6C /* BarabaraGameUITests */,
@@ -99,6 +109,8 @@
 		002A06A7264D3B7D006C8F6C /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				002A06DC264D3DE9006C8F6C /* bar.png */,
+				002A06DB264D3DE9006C8F6C /* tail.png */,
 				002A06A8264D3B7D006C8F6C /* AppDelegate.swift */,
 				002A06AA264D3B7D006C8F6C /* SceneDelegate.swift */,
 				002A06AC264D3B7D006C8F6C /* ViewController.swift */,
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				002A06B5264D3B81006C8F6C /* LaunchScreen.storyboard in Resources */,
+				002A06DE264D3DE9006C8F6C /* bar.png in Resources */,
+				002A06DD264D3DE9006C8F6C /* tail.png in Resources */,
 				002A06B2264D3B81006C8F6C /* Assets.xcassets in Resources */,
 				002A06B0264D3B7D006C8F6C /* Main.storyboard in Resources */,
 			);
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002A06E8264D4049006C8F6C /* RankingViewController.swift in Sources */,
+				002A06E3264D4019006C8F6C /* GameViewController.swift in Sources */,
 				002A06AD264D3B7D006C8F6C /* ViewController.swift in Sources */,
 				002A06A9264D3B7D006C8F6C /* AppDelegate.swift in Sources */,
 				002A06AB264D3B7D006C8F6C /* SceneDelegate.swift in Sources */,
