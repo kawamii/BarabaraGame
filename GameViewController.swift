@@ -21,7 +21,7 @@ class GameViewController: UIViewController {
     
     let width: CGFloat = UIScreen.main.bounds.size.width //画面幅
     var positionX: [CGFloat] = [0.0, 0.0, 0.0]//画面の入りの配列
-    var dx: [CGFloat] = [3.0, -5.0, 2.5] //画像の動かす幅
+    var dx: [CGFloat] = [3.0, -4.9, 2.5] //画像の動かす幅
     
     func start() {
         resultLabel.isHidden = true
